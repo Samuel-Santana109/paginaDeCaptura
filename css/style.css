@@ -100,3 +100,35 @@ footer{
 }
 
 }
+
+/* Mantenha as regras iniciais */
+
+/* ... */
+
+@media screen and (max-width: 768px) {
+    /* Aplique as mudanças para telas menores, como tablets e celulares */
+  
+    .formContainer {
+      float: none;
+      max-width: 100%; /* Utilize a largura total disponível */
+      margin: 0 auto; /* Centralize o elemento */
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 14px; /* Reduza o tamanho da fonte para telas menores */
+    }
+  
+    .description {
+      display: block;
+      text-align: left;
+      color: white;
+      max-width: 100%; /* Use a largura total disponível */
+      margin: 20px auto; /* Centralize o elemento e adicione margens */
+    }
+  
+    .description h3 {
+      font-size: 18px; /* Reduza o tamanho da fonte para telas menores */
+    }
+  }
+  
